@@ -9,7 +9,7 @@ const Intro = () => (
           a Go lang, Java and JS developer <br />
 
         </p>
-        <a target="_blank" rel="noopener noreferrer" href="mailto:me@wunnle.com">
+        <a target="_blank" rel="noopener noreferrer" href="mailto:amaniyar000@gmail.com">
           <button className={styles.helloButton}>Greet</button>
         </a>
       </div>
