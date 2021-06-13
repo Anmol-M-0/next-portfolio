@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Router from 'next/router'
 import nprogress from 'nprogress'
+import Header from './Header'
 
 
 
@@ -20,13 +21,13 @@ const Layout = ({ children, title }) => (
             <title>Next Portfolio</title>
            
         </Head>
-        <header>
+        <Header>
             
                 <Link href='/' >
                     <a>Home</a>
                 </Link>
                 
-                <Link href="/about">
+                {/* <Link href="/about">
                     <a>about</a>
                 </Link>
                 
@@ -36,9 +37,9 @@ const Layout = ({ children, title }) => (
 
                 <Link href="/blog">
                     <a>Blog</a>
-                </Link>
+                </Link> */}
             
-        </header>
+        </Header>
         <h1>{title}</h1>
         {children}
         <footer>&copy; {new Date().getFullYear()}</footer>
